@@ -1,0 +1,6 @@
+ {
+        "payload": {
+          "dialogFlowCustomResponseText": "Quero saber onde vejo o numero do cartão"
+        },
+        "label": "Informações do Cartão"
+      },
