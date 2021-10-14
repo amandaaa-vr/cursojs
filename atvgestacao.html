@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+   
+   //atividade
+   function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha()
+
+    }
+
+    var anosPassaram = 2021-1500
+    var resultado = anosPassaram/28
+
+    mostra( "Desde 1500 teve mais ou menos " +  Math.round (resultado)   + " gerações")
+
+
+    //gabarito
+    var idadeMediaQuandoTemFilhos = 28;
+    var anoAtual = 2016; 
+
+    var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+    mostra(quantidadeDeGeracoes);
+
+</script>
